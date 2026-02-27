@@ -1,0 +1,44 @@
+body {
+    background-color: #C6D1D5;
+}
+
+mi-navbar{
+     background-color: #C6D1D5;
+}
+
+.nav-link {
+    transition: all 0.3s ease; /* Esta es la clave: hace que el cambio no sea de golpe, sino suave */
+    position: relative;
+}
+
+.nav-link:hover {
+    color: black !important; /* Cambia a verde (o el color del logo) */
+    transform: scale(1.1);      /* Crece un poquito (10%) */
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    transition: width 0.3s;
+}
+
+.nav-link:hover::after {
+    width: 100%; /* La rayita se extiende al pasar el mouse */
+}
+
+.btn-outline-success {
+    transition: transform 0.2s;
+}
+
+.btn-outline-success:hover {
+    background-color: black !important;
+    color: white !important;
+    transform: translateY(-3px); /* El botón "salta" un poquito hacia arriba */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Le da una sombra para que parezca que flota */
+}
+
