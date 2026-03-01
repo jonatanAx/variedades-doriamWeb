@@ -68,5 +68,8 @@ mi-navbar{
     width: 100%;
 }
 
-
+.text-color:hover{
+     color: black;
+    text-shadow: 0 0 40px darkred;
+}
 
