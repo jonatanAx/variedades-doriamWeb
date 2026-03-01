@@ -42,3 +42,29 @@ mi-navbar{
     box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Le da una sombra para que parezca que flota */
 }
 
+
+.titulo-diseno{
+   color: black; /* Un morado vibrante */
+    text-transform: uppercase;
+    font-family: 'Georgia', serif; /* Una letra con remates ayuda al look */
+    letter-spacing: 8px;
+    font-weight: 900;
+    text-shadow: 
+        0 0 10px white,
+        0 0 20px gray,
+        3px 3px 2px rgba(0, 0, 0, 0.8);
+    transition: 0.3s;
+}
+
+.titulo-diseno:hover{
+    color: black;
+    text-shadow: 0 0 40px black;
+}
+
+/* Esto obliga a todas las fotos a medir lo mismo */
+.tarjeta-producto .card-img-top {
+    height: 300px; /* Ajusta esta altura a tu gusto */
+    object-fit: cover; /* Recorta la imagen para que llene el espacio sin estirarse */
+    width: 100%;
+}
+
