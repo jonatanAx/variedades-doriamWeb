@@ -68,8 +68,53 @@ mi-navbar{
     width: 100%;
 }
 
-.text-color:hover{
+.precio-estilo{
+    font-family: Georgia;
+    font-size: 30px;
      color: black;
-    text-shadow: 0 0 40px darkred;
+       transition: 0.3s; 
 }
 
+.precio-estilo:hover{
+    
+    text-shadow: 2px 2px 2px white;
+}
+
+
+
+
+.nombre-estilo{
+    font-family: Arial;
+    font-size: 20px;
+}
+
+.nombre-estilo:hover{
+    text-shadow: 3px 2px 3px white;
+}
+
+.titulo-Nuevo{
+    color: white;
+   text-transform: uppercase;
+    font-size: 25xp;
+    font-family: Arial;
+    font-size: 20px;   
+    transition: 0.3s; 
+    letter-spacing: 8px;
+    font-weight: 900;
+}
+
+.titulo-Nuevo:hover{
+    color: white;
+    text-shadow: 3px 2px 3px black;
+}
+
+.titulo-cocina{
+   color: white;
+   text-transform: uppercase;
+    font-size: 25xp;
+    font-family: Arial;
+    font-size: 20px;   
+    transition: 0.3s; 
+    letter-spacing: 8px;
+    font-weight: 900;
+}
